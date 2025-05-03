@@ -34,7 +34,5 @@
 
 - Add input validation and sanitation for better user experience
 - Improve styling css for better user experience
-- Handle better validation errors and alerts for better user experience
 - Sort transaction from latest to oldest for better readability
-- Clear inputs after clicking on button
-- Add individual component unit tests
+- Clear inputs after submitting form for better user experience

@@ -1,0 +1,432 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Component: ExistingAccount > should render 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-196bwzp-MuiPaper-root-MuiCard-root"
+        name="Test Account 1"
+      >
+        <div
+          class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+        >
+          <div
+            class="MuiTypography-root MuiTypography-h5 css-16xl4zq-MuiTypography-root"
+          >
+            Test Account 1
+          </div>
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-17v1mfu-MuiTypography-root"
+          >
+            Balance: $
+            100
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
+          >
+            <div
+              class="MuiStack-root css-1sazv7p-MuiStack-root"
+            >
+              <li
+                class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-cfd5wn-MuiListItem-root"
+              >
+                <div
+                  class="MuiFormControl-root MuiTextField-root css-1xp5r68-MuiFormControl-root-MuiTextField-root"
+                >
+                  <label
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-19qnlrw-MuiFormLabel-root-MuiInputLabel-root"
+                    data-shrink="false"
+                    for="input-deposit"
+                    id="input-deposit-label"
+                  >
+                    Deposit
+                  </label>
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-quhxjy-MuiInputBase-root-MuiOutlinedInput-root"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiOutlinedInput-input css-16wblaj-MuiInputBase-input-MuiOutlinedInput-input"
+                      id="input-deposit"
+                      type="number"
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline css-1ll44ll-MuiOutlinedInput-notchedOutline"
+                    >
+                      <legend
+                        class="css-81qg8w"
+                      >
+                        <span>
+                          Deposit
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary css-1blvszr-MuiButtonBase-root-MuiButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  Deposit
+                </button>
+              </li>
+              <li
+                class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-cfd5wn-MuiListItem-root"
+              >
+                <div
+                  class="MuiFormControl-root MuiTextField-root css-1xp5r68-MuiFormControl-root-MuiTextField-root"
+                >
+                  <label
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-19qnlrw-MuiFormLabel-root-MuiInputLabel-root"
+                    data-shrink="false"
+                    for="input-withdraw"
+                    id="input-withdraw-label"
+                  >
+                    Withdraw
+                  </label>
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-quhxjy-MuiInputBase-root-MuiOutlinedInput-root"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiOutlinedInput-input css-16wblaj-MuiInputBase-input-MuiOutlinedInput-input"
+                      id="input-withdraw"
+                      type="number"
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="MuiOutlinedInput-notchedOutline css-1ll44ll-MuiOutlinedInput-notchedOutline"
+                    >
+                      <legend
+                        class="css-81qg8w"
+                      >
+                        <span>
+                          Withdraw
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary css-1blvszr-MuiButtonBase-root-MuiButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  Withdraw
+                </button>
+              </li>
+              <li
+                class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-cfd5wn-MuiListItem-root"
+              >
+                <div
+                  class="MuiFormControl-root MuiTextField-root css-1xp5r68-MuiFormControl-root-MuiTextField-root"
+                >
+                  <label
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-standard MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-standard css-2hy7sk-MuiFormLabel-root-MuiInputLabel-root"
+                    data-shrink="false"
+                    for="input-transfer-to"
+                    id="input-transfer-to-label"
+                  >
+                    Transfer To
+                  </label>
+                  <div
+                    class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-colorPrimary MuiInputBase-formControl css-5h82ro-MuiInputBase-root-MuiInput-root"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiInput-input css-1yrc8ca-MuiInputBase-input-MuiInput-input"
+                      id="input-transfer-to"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="MuiFormControl-root MuiTextField-root css-1xp5r68-MuiFormControl-root-MuiTextField-root"
+                >
+                  <label
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-standard MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-standard css-2hy7sk-MuiFormLabel-root-MuiInputLabel-root"
+                    data-shrink="false"
+                    for="input-transfer-amount"
+                    id="input-transfer-amount-label"
+                  >
+                    Transfer Amount
+                  </label>
+                  <div
+                    class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-colorPrimary MuiInputBase-formControl css-5h82ro-MuiInputBase-root-MuiInput-root"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiInput-input css-1yrc8ca-MuiInputBase-input-MuiInput-input"
+                      id="input-transfer-amount"
+                      type="number"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary css-1blvszr-MuiButtonBase-root-MuiButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  Transfer
+                </button>
+              </li>
+            </div>
+          </p>
+        </div>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing css-1q4nm6f-MuiCardActions-root"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-colorPrimary css-1ccsd5i-MuiButtonBase-root-MuiButton-root"
+            tabindex="0"
+            type="button"
+          >
+            View Transaction History
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-196bwzp-MuiPaper-root-MuiCard-root"
+      name="Test Account 1"
+    >
+      <div
+        class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+      >
+        <div
+          class="MuiTypography-root MuiTypography-h5 css-16xl4zq-MuiTypography-root"
+        >
+          Test Account 1
+        </div>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-17v1mfu-MuiTypography-root"
+        >
+          Balance: $
+          100
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
+        >
+          <div
+            class="MuiStack-root css-1sazv7p-MuiStack-root"
+          >
+            <li
+              class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-cfd5wn-MuiListItem-root"
+            >
+              <div
+                class="MuiFormControl-root MuiTextField-root css-1xp5r68-MuiFormControl-root-MuiTextField-root"
+              >
+                <label
+                  class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-19qnlrw-MuiFormLabel-root-MuiInputLabel-root"
+                  data-shrink="false"
+                  for="input-deposit"
+                  id="input-deposit-label"
+                >
+                  Deposit
+                </label>
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-quhxjy-MuiInputBase-root-MuiOutlinedInput-root"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input MuiOutlinedInput-input css-16wblaj-MuiInputBase-input-MuiOutlinedInput-input"
+                    id="input-deposit"
+                    type="number"
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="MuiOutlinedInput-notchedOutline css-1ll44ll-MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      class="css-81qg8w"
+                    >
+                      <span>
+                        Deposit
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary css-1blvszr-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                Deposit
+              </button>
+            </li>
+            <li
+              class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-cfd5wn-MuiListItem-root"
+            >
+              <div
+                class="MuiFormControl-root MuiTextField-root css-1xp5r68-MuiFormControl-root-MuiTextField-root"
+              >
+                <label
+                  class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-19qnlrw-MuiFormLabel-root-MuiInputLabel-root"
+                  data-shrink="false"
+                  for="input-withdraw"
+                  id="input-withdraw-label"
+                >
+                  Withdraw
+                </label>
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-quhxjy-MuiInputBase-root-MuiOutlinedInput-root"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input MuiOutlinedInput-input css-16wblaj-MuiInputBase-input-MuiOutlinedInput-input"
+                    id="input-withdraw"
+                    type="number"
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="MuiOutlinedInput-notchedOutline css-1ll44ll-MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      class="css-81qg8w"
+                    >
+                      <span>
+                        Withdraw
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary css-1blvszr-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                Withdraw
+              </button>
+            </li>
+            <li
+              class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-cfd5wn-MuiListItem-root"
+            >
+              <div
+                class="MuiFormControl-root MuiTextField-root css-1xp5r68-MuiFormControl-root-MuiTextField-root"
+              >
+                <label
+                  class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-standard MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-standard css-2hy7sk-MuiFormLabel-root-MuiInputLabel-root"
+                  data-shrink="false"
+                  for="input-transfer-to"
+                  id="input-transfer-to-label"
+                >
+                  Transfer To
+                </label>
+                <div
+                  class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-colorPrimary MuiInputBase-formControl css-5h82ro-MuiInputBase-root-MuiInput-root"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input MuiInput-input css-1yrc8ca-MuiInputBase-input-MuiInput-input"
+                    id="input-transfer-to"
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div
+                class="MuiFormControl-root MuiTextField-root css-1xp5r68-MuiFormControl-root-MuiTextField-root"
+              >
+                <label
+                  class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-standard MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-standard css-2hy7sk-MuiFormLabel-root-MuiInputLabel-root"
+                  data-shrink="false"
+                  for="input-transfer-amount"
+                  id="input-transfer-amount-label"
+                >
+                  Transfer Amount
+                </label>
+                <div
+                  class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-colorPrimary MuiInputBase-formControl css-5h82ro-MuiInputBase-root-MuiInput-root"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input MuiInput-input css-1yrc8ca-MuiInputBase-input-MuiInput-input"
+                    id="input-transfer-amount"
+                    type="number"
+                  />
+                </div>
+              </div>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary css-1blvszr-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                Transfer
+              </button>
+            </li>
+          </div>
+        </p>
+      </div>
+      <div
+        class="MuiCardActions-root MuiCardActions-spacing css-1q4nm6f-MuiCardActions-root"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-colorPrimary css-1ccsd5i-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
+        >
+          View Transaction History
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

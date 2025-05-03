@@ -1,4 +1,3 @@
-import { vi } from "vitest";
 import { createAccount, deposit, formatHistory, transfer, validateAmount, withdraw } from "../accountManagement.helpers";
 
 let alertSpy;
@@ -50,7 +49,6 @@ describe('Helpers: accountManagement', () => {
         it('should add a new account to accounts', () => {
             const initialAccounts = {
                 existing1: {
-                    id: 'existing1',
                     name: 'Existing Account',
                     balance: 100,
                 },
@@ -105,13 +103,11 @@ describe('Helpers: accountManagement', () => {
         it('should add amount to the account balance and return updated accounts object', () => {
             const accounts = {
                 'acc1': {
-                    id: 'acc1',
                     name: 'Test Account 1',
                     balance: 100,
                     history: ['Test'],
                 },
                 'acc2': {
-                    id: 'acc2',
                     name: 'Test Account 2',
                     balance: 200,
                     history: ['Test'],
@@ -120,7 +116,6 @@ describe('Helpers: accountManagement', () => {
             const result = deposit(accounts, 'acc1', '50');
             const expected = {
                 'acc1': {
-                    id: 'acc1',
                     name: 'Test Account 1',
                     balance: 150,
                     history: [
@@ -129,7 +124,6 @@ describe('Helpers: accountManagement', () => {
                     ],
                 },
                 'acc2': {
-                    id: 'acc2',
                     name: 'Test Account 2',
                     balance: 200,
                     history: ['Test'],
@@ -140,19 +134,17 @@ describe('Helpers: accountManagement', () => {
         it('should alert and return accounts if account name is not found', () => {
             const accounts = {
                 'acc1': {
-                    id: 'acc1',
                     name: 'Test Account',
                     balance: 100,
                 },
             };
-            const result = deposit(accounts, 'unknown_id', '50');
+            const result = deposit(accounts, 'unknown_name', '50');
             expect(alertSpy).toHaveBeenCalledWith('Failed to find account. Please retry or create a new account.');
             expect(result).toEqual(accounts);
         });
         it('should alert and return accounts if deposit amount is invalid', () => {
             const accounts = {
                 'acc1': {
-                    id: 'acc1',
                     name: 'Test Account',
                     balance: 100,
                     history: [],
@@ -255,7 +247,6 @@ describe('Helpers: accountManagement', () => {
         it('should alert and return original accounts if transferring to the same account', () => {
             const accounts = {
                 'acc1': {
-                    id: 'acc1',
                     name: 'Account 1',
                     balance: 100,
                     history: [],

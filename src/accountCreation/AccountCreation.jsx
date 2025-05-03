@@ -7,8 +7,8 @@ import { useState } from "react";
 const AccountCreation = ({
     onAdd,
 }) => {
-    const [name, setName] = useState(null);
-    const [balance, setBalance] = useState(null);
+    const [name, setName] = useState(undefined);
+    const [balance, setBalance] = useState(undefined);
 
     const handleNameChange = (event) => {
         setName(event?.target?.value);

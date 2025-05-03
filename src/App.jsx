@@ -15,7 +15,7 @@ const App = () => {
   });
 
   const handleAddAccount = (name, balance) => {
-    setAccounts(prev => createAccount(prev, name, balance));
+    setAccounts((prev) => createAccount(prev, name, balance));
   }
 
   const handleDeposit = (name, amount) => {

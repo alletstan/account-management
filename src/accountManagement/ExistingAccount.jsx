@@ -8,10 +8,10 @@ const ExistingAccount = ({
     onTransfer,
     onWithdraw,
 }) => {
-    const [depositAmount, setDepositAmount] = useState(null);
-    const [withdrawAmount, setWithdrawAmount] = useState(null);
-    const [transferAmount, setTransferAmount] = useState(null);
-    const [toAccount, setToAccount] = useState(null);
+    const [depositAmount, setDepositAmount] = useState(undefined);
+    const [withdrawAmount, setWithdrawAmount] = useState(undefined);
+    const [transferAmount, setTransferAmount] = useState(undefined);
+    const [toAccount, setToAccount] = useState(undefined);
     const [showTransactionHistoryDialog, setShowTransactionHistoryDialog] = useState(false);
 
     const handleDepositChange = (event) => {
